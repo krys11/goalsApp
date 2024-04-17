@@ -21,9 +21,11 @@ const GoalsInput = ({ addGoals, setModalVisible, modalVisible }) => {
   };
 
   const onPressBtn = () => {
-    addGoals(enterGoals);
-    setEnterGoals("");
-    setModalVisible(false);
+    if (enterGoals) {
+      addGoals(enterGoals);
+      setEnterGoals("");
+      setModalVisible(false);
+    }
   };
 
   return (
