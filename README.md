@@ -1,4 +1,4 @@
-Une application mobile React-Native 
+Une application mobile React-Native pour ajouter des entres dans une liste et les afficher
 
 1 - clooner le repertoire
 2 - ouvrer un terminal dans le repertoire
